@@ -29,3 +29,24 @@ let myInformation = {
     console.log(myInformation)
   }
 }
+
+// greeter 
+let greeter = {
+  //here we make a method called hello that take name as a parameter
+  hello (name) {
+    console.log('Hello there ' + name);
+  },
+  //here we are making a method that sends a farewell message
+  goodbye (name) {
+    console.log('Farewell' + name);
+  },
+  //whoAreYou method uses interpolation to log a string just like all the other methods
+  whoAreYou (name) {
+    console.log('Oh right!!' + name + ' how could I forget!')
+  }
+}
+
+
+
+
+

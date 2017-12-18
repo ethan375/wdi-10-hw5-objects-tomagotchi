@@ -17,6 +17,13 @@ var tamagotchi1 = {
     console.log('Bleeeeh :O~~')
     tamagotchi1.foodInTummy -= 5;
     console.log('there is only ' + this.foodInTummy + ' left in its tummy');
+     tamagotchi1.health -= 1;
+    console.log('billybob lost a health point! he now only has ' + this.health + ' health points');
+  }
+    yawn () {
+    console.log(:O)
+    tamagotchi2.restedness -= 1;
+    console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
   }
 }
 
@@ -31,13 +38,21 @@ var tamagotchi2 = {
   cry () {
     console.log('whaaaaaa!! cried ' + this.name);
     // this takes food away from the tamagotchis tummy every time it is run. the next line displays that fact
-    tamagotchi1.foodInTummy -= 2;
+    tamagotchi2.foodInTummy -= 2;
     console.log('there is only ' + this.foodInTummy + ' left in its tummy');
   },
   // this method makes the thing puke, but doesnt empty the foodInTummy
   puke () {
     console.log('Bleeeeh :O~~');
-     tamagotchi1.foodInTummy -= 5;
+     tamagotchi2.foodInTummy -= 5;
     console.log('there is only ' + this.foodInTummy + ' left in its tummy');
+    // this method decreases health by one and then logs the updated health
+    tamagotchi2.health -= 1;
+    console.log('billyjoe lost a health point! he now only has ' + this.health + ' health points')
+  },
+  yawn () {
+    console.log(:O)
+    tamagotchi2.restedness -= 1;
+    console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
   }
 }

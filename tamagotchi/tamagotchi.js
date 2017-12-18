@@ -65,6 +65,13 @@ let player = {
   feedTamagotchi () {
     tamagotchi1.foodInTummy += 1;
     tamagotchi2.foodInTummy += 1;
+  },
+  medicateTamagotchi (beast) {
+    beast.health +=1;
+  },
+  knockOutTamagotchi (beast) {
+    console.log("the tamagotchi is now asleep");
+    beast.restedness +=1;
   }
 }
 

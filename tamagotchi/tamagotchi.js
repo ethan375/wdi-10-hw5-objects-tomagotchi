@@ -56,3 +56,13 @@ var tamagotchi2 = {
     console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
   }
 }
+
+
+
+let player = {
+  name: 'jon',
+  sayName: console.log('Hi my name is ' + this.name)
+}
+
+
+

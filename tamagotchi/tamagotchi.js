@@ -19,9 +19,9 @@ var tamagotchi1 = {
     console.log('there is only ' + this.foodInTummy + ' left in its tummy');
      tamagotchi1.health -= 1;
     console.log('billybob lost a health point! he now only has ' + this.health + ' health points');
-  }
+  },
     yawn () {
-    console.log(:O)
+    console.log(':O')
     tamagotchi2.restedness -= 1;
     console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
   }
@@ -51,7 +51,7 @@ var tamagotchi2 = {
     console.log('billyjoe lost a health point! he now only has ' + this.health + ' health points')
   },
   yawn () {
-    console.log(:O)
+    console.log(':O')
     tamagotchi2.restedness -= 1;
     console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
   }
@@ -61,7 +61,11 @@ var tamagotchi2 = {
 
 let player = {
   name: 'jon',
-  sayName: console.log('Hi my name is ' + this.name)
+  sayName: console.log('Hi my name is ' + this.name),
+  feedTamagotchi () {
+    tamagotchi1.foodInTummy += 1;
+    tamagotchi2.foodInTummy += 1;
+  }
 }
 
 

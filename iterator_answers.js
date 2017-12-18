@@ -12,3 +12,14 @@ const more_words = ["Joe", "Overeats", "Eggs"];
 more_words.map(function() {
   console.log(more_words)
 })
+
+//reduce
+// read the mdn and dont really understand how it works 
+// reduce is a function
+const arr = [8, 8, 8, 8, 8, 8, 8, 8];
+arr.reduce(function(){
+  for(i=0;9<arr.length;i++){
+    arr[i] * arr[i + 1]
+    console.log(arr)
+  }
+})

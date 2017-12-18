@@ -24,7 +24,10 @@ var tamagotchi1 = {
     console.log(':O')
     tamagotchi2.restedness -= 1;
     console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
-  }
+  },
+  setInterval(hungerTimer(){ this.cry(); }, 6000);
+  setInterval(yawnTimer(){ this.yawn; }, 10000);
+  setInterval(sickTimer(){ this.puke; }, 25000);
 }
 
 
@@ -54,7 +57,10 @@ var tamagotchi2 = {
     console.log(':O')
     tamagotchi2.restedness -= 1;
     console.log(this.name + "'s restedness level has been decreased by one his new level is " + this.restedness);
-  }
+  },
+  setInterval(hungerTimer(){ this.cry(); }, 6000);
+  setInterval(yawnTimer(){ this.yawn; }, 10000);
+  setInterval(sickTimer(){ this.puke; }, 25000);
 }
 
 

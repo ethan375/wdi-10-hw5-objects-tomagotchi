@@ -23,3 +23,26 @@ arr.reduce(function(){
     console.log(arr)
   }
 })
+
+
+// chaining
+
+const sheepShearers = [
+    {
+        name: "Tim",
+        age: 20,
+        sheepCount: 18
+    },
+    {
+        name: "C3PO",
+        age: 200,
+        sheepCount: 320
+    },
+    {
+        name: "Cousin It",
+        age: Infinity,
+        sheepCount: 2900
+    }
+];
+
+// i think we would use forEach and reduce, but im not really sure about how they all work so I dont know how to make them work together
